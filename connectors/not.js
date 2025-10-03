@@ -13,11 +13,12 @@ let idade = 18
 let possuiCNH = true
 let nacionalidade = 'Brasileira'
 let minhavalidacao = idade >= 18 &&possuiCNH == true && nacionalidade == 'Brasileira'
-let possuiInformacao = possuiCNH ? ´PossuiCNH' : nacionalidade === 'Brasileira' ? 'nacionalidade' : 'Outros'
+let possuiInformacao = possuiCNH ? 'PossuiCNH' : nacionalidade === 'Brasileira' ? 'nacionalidade' : 'Outros'
 console.log(possuiInformacao)
 
 //contexto de atribuição
-if (!(idade >= 18 && possuiCNH == true && nacionalidade === 'Brasileira')){
-    console.log('Eu NÃO posso dirigir')
-} else{
-    console.log('Eu posso dirigir')}
+//if (!(idade >= 18 && possuiCNH == true && nacionalidade === 'Brasileira')){
+//   console.log('Eu NÃO posso dirigir')
+//} else{
+
+//  console.log('Eu posso dirigir')}
