@@ -1,0 +1,14 @@
+// 1. Se ontem foi quarta-feira, amanhã será... 
+let array = [´Domingo', 'segunda-feira', 'terca-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sabado']
+console.log(array[0]) //domingo
+console.log(array[1]) //segunda
+console.log('O numero de itens do meu array é: ' + array.length) 
+//o tamanho do meu array -1 sempre será o tamanho máximo do meu array
+console.log('índice máximo do array ' + Number(array.length 1))
+
+let email= ' daniel@gmail.com.br   '
+
+if (email.trim() =='daniel@gmail.com')
+{
+console.log('Email com trim '+ '" + email.trim() + '"')}
+console.log('Email válido)
